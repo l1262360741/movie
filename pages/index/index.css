@@ -1,0 +1,139 @@
+.carousel{
+	width: 100%;
+	height: 440rpx;
+}
+/* //热门超英 start*/
+.super-hot{
+	margin-top: 12upx;
+	padding: 20upx;
+}
+.hot-title-wrapper{
+	display: flex;
+	flex-direction: row;
+	
+}
+.hot-ico{
+	width:30upx;
+	height:30upx;
+	margin-top: 15upx;
+	
+}
+.hot-title{
+	font-size: 20px;
+	margin-left: 20upx;
+	font-weight: bold;
+}
+.hot{
+	width: 100%;
+	white-space: nowrap;
+}
+.poster-wrapper{
+	display: flex;
+	flex-direction: column;
+}
+.single-poster{
+	display: inline-block;
+	margin-left: 20upx;
+}
+.poster{ 
+	width: 200upx;
+	height: 270upx;
+}
+.movie-name{
+	width: 200upx;
+	margin-top: 10upx;
+	font-size: 14px;
+	font-weight: bold;
+	/* name超出则省略 */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.movie-score-wrapper{
+	display: flex;
+	flex-direction: row;
+	
+}
+.star-ico{
+	width: 20upx;
+	height: 20upx;
+	margin-top: 6upx;
+	
+}
+.movie-score{
+	font-size: 12upx;
+	color: grey;
+	margin-left: 8upx;
+}
+/* 热门超英 end */
+/* 热门预告 start */
+.hot-movies{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0upx 20upx 20upx 20upx;
+	
+}
+.hot-movie-single{
+	width: 350upx;
+	height:220upx;
+	margin-top: 10upx;
+}
+.guess-u-like{
+	display: flex;
+	flex-direction: column;
+}
+.single-like-movie{
+	display: flex;
+	flex-direction: row;
+	padding: 30upx 20upx;
+	justify-content: space-between;
+	
+}
+.like-movie{
+	width: 180upx;
+	height:240upx;
+	border-radius: 3%;
+	margin-right: 18upx;
+}
+.movie-desc{
+	width: 410upx;
+	display: flex;
+	flex-direction: column;
+	margin-right: 5upx;
+}
+.movie-info{
+	color: #808080;
+	font-size: 13px;
+	flex-wrap: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.movie-title{
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+.movie-oper{
+	width: 140upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-left: dashed 2px;
+	border-color: #C0C0C0;
+}
+.praise-ico{
+	width: 40upx;
+	height: 40upx;
+	align-self: center;
+}
+.praise-me{
+	font-size: 14px;
+	color: #feab2a;
+	align-self: center;
+}
+.animation-opacity{
+	font-size: bold;
+	opacity: 1;
+}
