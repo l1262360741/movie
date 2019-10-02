@@ -280,7 +280,7 @@
 					this.animation.translateY(0).opacity(0).step({
 						duration: 0
 					});
-					this.animationData = this.a 	nimation;
+					this.animationData = this.animation;
 					this.animationDataArr[gIndex] = this.animationData.export();
 				}.bind(this), 500);
 			}
